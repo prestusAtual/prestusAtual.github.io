@@ -1,0 +1,29 @@
+$pr_menu : #003c92;
+$pr_footer : #1e1e1e;
+$pr_btn : #fbb03b;
+
+$theme-colors:(	
+	"menu" : $pr_menu,
+	"prfooter" : $pr_footer,
+	"prbtn" : $pr_btn
+);
+
+html {
+  overflow-x: hidden; 
+ }
+
+.news input{
+	width: 100%;
+}
+
+.redes{
+	justify-content : space-between;
+}
+
+.sub li{
+	 line-height: 2;
+}
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
